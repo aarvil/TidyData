@@ -1,0 +1,47 @@
+---
+title: "CodeBook"
+author: "aarvil"
+date: "January 25, 2016"
+output: html_document
+---
+
+## Code Book
+
+This code book describes the variables for the output files of the run_analysis.R script, tidydataset.txt and tidydataset-mean.txt. 
+
+This is in regards to the course project from JHU's Getting and Cleaning Data Course in Coursera.org. 
+
+Please refer to [README] (readme.md) for additional details. 
+
+### Variables for TIDYDATASET.TXT
+
+This is a description of variables of the dataset in TIDYDATASET.TXT. This dataset is an output of run_analysis.R. 
+
+For more detail regarding measurements, please refer to original documentation.Please refer to [README] (readme.md) for additional details. 
+
+| [] | Original Feature Name                | Dataset column name                  |
+|----|--------------------------------------|--------------------------------------|
+| 1  | tBodyAcc-mean()-X                    | tBodyAcc-mean-X                      |
+| 2  | tBodyAcc-mean()-Y                    | tBodyAcc-mean-Y                      |
+| 3  | tBodyAcc-mean()-Z                    | tBodyAcc-mean-Z                      |
+| ...| ...                                  | ...                                  |
+| ...| additional mean and std measurements | ...                                  |
+| ...| ...                                  | ...                                  |
+| 87 |                                      | activity                             |
+| 88 |                                      | subject                              |
+
+
+## Variables for TIDYDATASET-MEAN.TXT
+
+This is a description of variables of the dataset in TIDYDATASET-MEAN.TXT. This dataset is an output of run_analysis.R. 
+
+Please note that this dataset is grouped by activity and subject. It's a short and wide dataset, containing measurements for each activity and each subject. 
+
+| column                | description                                               | 
+| ------------          | --------------------------------------------------------  |
+| activity              | Activity label                                            |
+| subject               | Id of subject                                             |
+| tBodyAcc-mean()-X     | Average of each variable (grouped by activity & subject)  |
+| ...                   | ...                                                       |
+| additional measurement| ...                                                       |
+| ...                   | ...                                                       |
