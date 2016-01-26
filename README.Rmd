@@ -71,7 +71,17 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroJerkMean 
 
 ## Environment Information
-```{r}
-version
-
-```
+* platform       x86_64-w64-mingw32          
+* arch           x86_64                      
+* os             mingw32                     
+* system         x86_64, mingw32             
+* status                                     
+* major          3                           
+* minor          2.2                         
+* year           2015                        
+* month          08                          
+* day            14                          
+* svn rev        69053                       
+* language       R                           
+* version.string R version 3.2.2 (2015-08-14)
+* nickname       Fire Safety    
